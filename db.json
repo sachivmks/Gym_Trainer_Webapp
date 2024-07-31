@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "id": "f0b8",
+      "username": "Sachiv 26",
+      "email": "sachiv26@gmail.com",
+      "password": "sachiv26"
+    },
+    {
+      "id": "049b",
+      "username": "demouser",
+      "email": "demo@gmail.com",
+      "password": "12345678"
+    },
+    {
+      "id": "d88f",
+      "username": "sibiarasu",
+      "email": "sibiarasu@gmail.com",
+      "password": "Sibiara@23"
+    },
+    {
+      "id": "8b1b",
+      "username": "Saravanan",
+      "email": "saravanan@gmail.com",
+      "password": "Sarav@234"
+    },
+    {
+      "id": "2b0e",
+      "username": "sachivmks@gmail.com",
+      "email": "sachiv26@gmail.com",
+      "password": "Sachiv@26"
+    }
+  ],
+  "workouts": [
+    {
+      "id": "1f2d",
+      "name": "gg",
+      "description": "dkjd",
+      "exercises": [
+        {
+          "id": "",
+          "name": "kjdnfg",
+          "reps": "45"
+        }
+      ],
+      "userId": "f0b8"
+    }
+  ],
+  "admins": [
+    {
+      "id": "ad1",
+      "username": "Admin1",
+      "email": "admin1@gmail.com",
+      "password": "Admin1@gym"
+    }
+  ]
+}
