@@ -54,6 +54,7 @@ u
 {
   background-color: black;
   color: white;
+  cursor: pointer;
 }
 
 .finalbutton1
@@ -62,10 +63,10 @@ u
   width: 120px;
   border-radius: 30px;
   text-align: center;
+  cursor: pointer;
 }
 
 .buttondiv{
     display: flex;
     align-items: center;
-    
 }

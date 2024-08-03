@@ -164,11 +164,11 @@ const Workouts = () => {
         <ul>
           <li><h1>VEST ARMOUR</h1></li>
           <li>© 2024 Vest Armour®, Inc. All rights reserved</li>
-          <li>Privacy Policy /</li>
-          <li>Terms of use /</li>
-          <li>Cookie Policy /</li>
-          <li>Manage Your Content /</li>
-          <li>AdChoices</li>
+          <li>Privacy Policy |  </li>
+          <li>Terms of use |  </li>
+          <li>Cookie Policy |  </li>
+          <li>Manage Your Content |  </li>
+          <li>AdChoices |  </li>
         </ul>
       </div>
     </>

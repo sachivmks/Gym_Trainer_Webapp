@@ -26,9 +26,9 @@ const cardData = [
   { id: 12, category: 'millets', title: 'Boiled Brown Beans', image: 'https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipes%2F2020-10-How-to-Cook-a-Perfect-Pot-of-Pinto-Beans%2FHow-to-Cook-a-Perfect-Pot-of-Pinto-Beans_010', carbs: 27, protein: 9, fats: 3, fiber: 8, calories: 164 },
   { id: 13, category: 'millets', title: 'Boiled Rice', image: 'https://www.kitchensanctuary.com/wp-content/uploads/2019/08/How-to-boil-rice-square-FS-6126.jpg', carbs: 28, protein: 2.7, fats: 0.3, fiber: 0.4, calories: 130 },
   { id: 14, category: 'millets', title: 'Chapati', image: 'https://static.toiimg.com/thumb/61203720.cms?imgsize=670417&width=800&height=800', carbs: 18, protein: 4, fats: 3, fiber: 2, calories: 104 },
-  { id: 15, category: 'millets', title: 'Parota', image: 'https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Parotta-1.jpg', carbs: 32, protein: 6, fats: 10, fiber: 2, calories: 300 },
+  { id: 15, category: 'millets', title: 'Parotta', image: 'https://www.whiskaffair.com/wp-content/uploads/2020/04/Kerala-Parotta-1.jpg', carbs: 32, protein: 6, fats: 10, fiber: 2, calories: 300 },
   { id: 16, category: 'millets', title: 'Dosa', image: 'https://t3.ftcdn.net/jpg/01/86/33/72/360_F_186337209_9rbcMLu3wGCDNaEoK1jO0aNzb0pv7Xs7.jpg', carbs: 27, protein: 4, fats: 6, fiber: 1, calories: 168 },
-  { id: 17, category: 'millets', title: 'Idli', image: 'https://us.123rf.com/450wm/cokemomo/cokemomo1310/cokemomo131000040/23294622-idli-south-indian-rice-cake-on-banana-leaf.jpg?ver=6', carbs: 12, protein: 2, fats: 0.4, fiber: 0.5, calories: 58 },
+  { id: 17, category: 'millets', title: 'Idly', image: 'https://us.123rf.com/450wm/cokemomo/cokemomo1310/cokemomo131000040/23294622-Idli    -south-indian-rice-cake-on-banana-leaf.jpg?ver=6', carbs: 12, protein: 2, fats: 0.4, fiber: 0.5, calories: 58 },
   { id: 18, category: 'millets', title: 'Ragi Dosa', image: 'https://www.chefkunalkapur.com/wp-content/uploads/2021/05/Ragi-Dosa-Instant-scaled.jpg?v=1619848402', carbs: 32, protein: 5, fats: 7, fiber: 2, calories: 170 },
   { id: 19, category: 'millets', title: 'Puri', image: 'https://cdn.cdnparenting.com/articles/2020/02/26144721/PURI-BHAJI-RECIPE.webp', carbs: 23, protein: 3, fats: 9, fiber: 0.8, calories: 149 },
 ];
@@ -216,13 +216,21 @@ const Dietfoods = () => {
         })}
     </div>
 </div>
-
+<div className="contentbox footer">
+        <ul>
+          <li><h1>VEST ARMOUR</h1></li>
+          <li>© 2024 Vest Armour®, Inc. All rights reserved</li>
+          <li>Privacy Policy  /</li>
+          <li>Terms of use  /</li>
+          <li>Cookie Policy  /</li>
+          <li>Manage Your Content /</li>
+          <li>AdChoices</li>
+        </ul>
+      </div>
 
     </div>
   );
 };
 
 export default Dietfoods;
-
-
 

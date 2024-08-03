@@ -6,6 +6,12 @@ import Loginpage from './components/Loginpage';
 import Signuppage from './components/Signuppage';
 import Dietfoods from './components/others/Dietfoods';
 import Workouts from './components/others/Workouts';
+import Workoutplans from './components/others/Workoutplans';
+import Gymlocator from './components/others/Gymlocator';
+import VirtualTrainer from './components/others/VirtualTrainer';
+import Goalsetting from './components/others/Goalsetting';
+import Wpcardio from './components/Workoutplanss/Wpcardio';
+import Wpchest from './components/Workoutplanss/Wpchest';
 
 
 function App() {
@@ -16,10 +22,15 @@ function App() {
         <Route path='/home' element={<Homepage/>}></Route>
         <Route path='/login' element={<Loginpage/>}></Route>
         <Route path='/register' element={<Signuppage/>}></Route>
-        <Route path='/demos' element={<Demos/>}></Route>
+        <Route path='/gymlocator' element={<Gymlocator/>}></Route>
         <Route path='/workouts' element={<Workouts/>}></Route>
+            <Route path='/workout-plans' element={<Workoutplans/>}></Route>
+                <Route path='/wp/cardio' element={<Wpcardio/>}></Route>
+                <Route path='/wp/chest' element={<Wpchest/>}></Route>
+        <Route path='/demos' element={<Demos/>}></Route>
         <Route path='/nutrients' element={<Dietfoods/>}></Route>
-
+        <Route path='/virtualtrainer' element={<VirtualTrainer/>}></Route>
+        <Route path='/schedule' element={<Goalsetting/>}></Route>
       </Routes>
    </div>
   );

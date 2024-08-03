@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../../assets/css/others/CalorieCalc.css'
 const CalorieCalculator = () => {
   const [formData, setFormData] = useState({
@@ -50,6 +51,11 @@ const CalorieCalculator = () => {
 
   return (
     <div clss="caloriecalc">
+      <div className="navbarcal">
+          
+        <Link to='/home' id="Link" className='navbarbutcal'>Back</Link>
+          
+      </div>
       <form class="caloform">
         <div>
             <h3 class="head1">Calculate your calories</h3>

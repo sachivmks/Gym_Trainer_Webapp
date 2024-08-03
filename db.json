@@ -16,7 +16,7 @@
       "id": "d88f",
       "username": "sibiarasu",
       "email": "sibiarasu@gmail.com",
-      "password": "Sibiara@23"
+      "password": "Sibiarasu@23"
     },
     {
       "id": "8b1b",
@@ -33,14 +33,53 @@
   ],
   "workouts": [
     {
-      "id": "1f2d",
-      "name": "gg",
-      "description": "dkjd",
+      "id": "cac1",
+      "name": "Bench presss",
+      "description": "The bench press is a compound exercise that targets the muscles of the upper body",
       "exercises": [
         {
           "id": "",
-          "name": "kjdnfg",
-          "reps": "45"
+          "name": "Incline",
+          "reps": "8"
+        }
+      ],
+      "userId": "f0b8"
+    },
+    {
+      "id": "90f0",
+      "name": "Pushups",
+      "description": "Push-ups are a basic exercise used in civilian athletic training.",
+      "exercises": [
+        {
+          "id": "",
+          "name": "Wide pushups",
+          "reps": "3"
+        }
+      ],
+      "userId": "f0b8"
+    },
+    {
+      "id": "b9a7",
+      "name": "Chest Press",
+      "description": "The chest press is a classic upper-body strengthening exercise ",
+      "exercises": [
+        {
+          "id": "",
+          "name": "Cable chest press",
+          "reps": "10"
+        }
+      ],
+      "userId": "f0b8"
+    },
+    {
+      "id": "0154",
+      "name": "Squat",
+      "description": "Squats burn calories and might help you lose weight",
+      "exercises": [
+        {
+          "id": "",
+          "name": "Classic squat",
+          "reps": "3"
         }
       ],
       "userId": "f0b8"
@@ -49,9 +88,101 @@
   "admins": [
     {
       "id": "ad1",
+      "username": "Admin2",
+      "email": "admin2@gmail.com",
+      "password": "Admin2@gym"
+    },
+    {
+      "id": "ad2",
+      "username": "Admin3",
+      "email": "admin3@gmail.com",
+      "password": "Admin3@gym"
+    },
+    {
+      "id": "ad3",
+      "username": "Admin4",
+      "email": "admin4@gmail.com",
+      "password": "Admin4@gym"
+    },
+    {
+      "id": "ad4",
+      "username": "Admin5",
+      "email": "admin5@gmail.com",
+      "password": "Admin5@gym"
+    },
+    {
+      "id": "ad5",
       "username": "Admin1",
       "email": "admin1@gmail.com",
       "password": "Admin1@gym"
+    }
+  ],
+  "demovideodata": [
+    {
+      "id": "974b",
+      "title": "Half Kneeling",
+      "description": "Half kneeling kettlebell chop",
+      "src": "https://www.youtube.com/embed/Psmkt_Tft5E?si=BjGvDyCfsKLgzjq6"
+    },
+    {
+      "id": "806e",
+      "title": "Banded Chop",
+      "description": "A variety of muscles are working during this exercise",
+      "src": "https://www.youtube.com/embed/ivziZev2BzA?si=t9DcNlyz8ZGXHF_i"
+    },
+    {
+      "id": "e318",
+      "title": "Banded Chop 2",
+      "description": "Advanced version of banded chop",
+      "src": "https://www.youtube.com/embed/zfYF2_-P_xU?si=Bhh1_cYiZf-llcBu"
+    },
+    {
+      "id": "e58d",
+      "title": "Half Kneeling KB",
+      "description": "Half Kneeling KB Low to High Chop",
+      "src": "https://www.youtube.com/embed/wPXdGwc0NTs?si=umSLS_T6FDDBFW0w"
+    },
+    {
+      "id": "f1a8",
+      "title": "Half Kneeling DB",
+      "description": "Half Kneeling DB Low to High Chop",
+      "src": "https://www.youtube.com/embed/qyM7NdixJzI?si=5CWOHYdf5o0o4DN1"
+    },
+    {
+      "id": "eec9",
+      "title": "Tall Kneeling KB",
+      "description": "Tall Kneeling KB Low to High Chop",
+      "src": "https://www.youtube.com/embed/mQvotoz6kqA?si=WqcX_SVBqm_aL3p4"
+    },
+    {
+      "id": "4b70",
+      "title": "Tall Kneeling DB",
+      "description": "Tall Kneeling DB Low to High Chop",
+      "src": "https://www.youtube.com/embed/2SchMMbHcdg?si=w2VmRA3IjKbUSk-E"
+    },
+    {
+      "id": "377c",
+      "title": "DB Windmill",
+      "description": "It's compound movement used to improve shoulder, core, and back stability.",
+      "src": "https://www.youtube.com/embed/EVLXzqAzAHI?si=SREUeMCCuVE5Clei"
+    },
+    {
+      "id": "ee15",
+      "title": "KB Windmill",
+      "description": "it is a training exercise that builds core strength and shoulder stability",
+      "src": "https://www.youtube.com/embed/3rtUK_jUv4s?si=dkYgziHUMMMoT1Ki"
+    },
+    {
+      "id": "07d4",
+      "title": "KB Cross Body Clean",
+      "description": "The kettlebell clean activates muscle groups throughout your entire body",
+      "src": "https://www.youtube.com/embed/ibmb3louDAk?si=s3Dt2gk3kFtlvp3k"
+    },
+    {
+      "id": "b811",
+      "title": "DB Cross Body Clean",
+      "description": "It recruits all of your major muscle groups for a head-to-toe pump",
+      "src": "https://www.youtube.com/embed/2t4OL7E-vmI?si=6mjrWLjlLEOiAzr7"
     }
   ]
 }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/css/Homepage.css';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
@@ -77,6 +76,7 @@ const Homepage = () => {
                 <>
                   <li><Link to='/login' id="Link" className='login_btn'>Login</Link></li>
                   <li><Link to='/register' id="Link" className='signup_btn'>Sign Up</Link></li>
+                  <li><Link to='/gymlocator' id="Link" className='gymloc'>Find gym near me</Link></li>
                 </>
               )}
             </ul>
@@ -121,7 +121,7 @@ const Homepage = () => {
               <div className=".box2insidebox1" onClick={() => { navigate('/workouts') }}>
                 <div className="innerboxx">
                   <div className="logobox">
-                    <FontAwesomeIcon icon="fa-regular fa-clone" />
+                    
                   </div>
                   <h3>Personalized Workouts</h3>
                   <p>Receive custom workout plans tailored to your fitness level and goals.</p>
@@ -143,7 +143,7 @@ const Homepage = () => {
                   <p>Offers basic dietary advice to complement fitness routines. </p>
                 </div>
               </div>
-              <div className=".box2insidebox1" onClick={() => { navigate('/trainer') }}>
+              <div className=".box2insidebox1" onClick={() => { navigate('/virtualtrainer') }}>
                 <div className="innerboxx">
                   <div className="logobox">
                   </div>
@@ -247,7 +247,7 @@ const Homepage = () => {
               <form className='contcontainer' onSubmit={onSubmit}>
                 <h3 className='conth3'>CONTACT US</h3>
                 <input type='text' placeholder='Enter your name' className='continp' name='name' required />
-                <input type='text' placeholder='Contact number' className='continp' name='email' required />
+                <input type='text' placeholder='Enter your email' className='continp' name='email' required />
                 <textarea className='continptarea' placeholder='Enter your queries here' name='message' required></textarea>
                 <button className='continpbut' type='submit'>SEND</button>
               </form>
