@@ -375,14 +375,16 @@ const Wpcardio = () => {
         </div>
       </div>
 
-      <div className={`popup-overlayy ${popupVisible ? 'popup-overlay-visiblee' : ''}`} onClick={hidePopup}></div>
+       <div className={`popup-overlayy ${popupVisible ? 'popup-overlay-visiblee' : ''}`} onClick={hidePopup}></div>
       <div className={`popuppp ${popupVisible ? 'popup-visiblee' : ''}`}>
         <div className="popup-headerrr">{currentExercise}</div>
         <div className="popup-contenttt">
           <input className="popup-inputtt" type="number" placeholder="Enter number of reps" />
         </div>
         <button className="popup-closee" onClick={hidePopup}>Close</button>
-      </div>
+        <button className="popup-closee" onClick={hidePopup}>Add WWorkout</button>
+      </div> 
+
 
 
       <div className="contentbox footer">

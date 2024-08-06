@@ -184,5 +184,44 @@
       "description": "It recruits all of your major muscle groups for a head-to-toe pump",
       "src": "https://www.youtube.com/embed/2t4OL7E-vmI?si=6mjrWLjlLEOiAzr7"
     }
+  ],
+  "goals": [
+    {
+      "id": "5",
+      "userId": "f0b8",
+      "type": "short-term",
+      "description": "Run",
+      "target": "20kms",
+      "reminder": "Weekly",
+      "progress": "100",
+      "completed": true
+    },
+    {
+      "id": "1",
+      "userId": "f0b8",
+      "type": "short-term",
+      "description": "run a marathon",
+      "target": "10km",
+      "reminder": "weekly",
+      "completed": true
+    },
+    {
+      "id": 1,
+      "userId": "f0b8",
+      "type": "long-term",
+      "description": "Gain weight",
+      "target": "12kg",
+      "reminder": "Daily Reminders on what to eat ",
+      "completed": true
+    },
+    {
+      "id": 1,
+      "userId": "f0b8",
+      "type": "short-term",
+      "description": "Run a marathon",
+      "target": "20kms",
+      "reminder": " ",
+      "completed": true
+    }
   ]
 }

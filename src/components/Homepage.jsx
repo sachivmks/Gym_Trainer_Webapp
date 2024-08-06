@@ -68,7 +68,7 @@ const Homepage = () => {
               <li><a href='#cont' id="Link">Contact</a></li>
               {user || admin ? (
                 <>
-                  {user && <li><Link to='/Profile' id="Link">Profile</Link></li>}
+                  {/* {user && <li><Link to='/Profile' id="Link">Profile</Link></li>} */}
                   {admin && <li><Link to='/AdminDashboard' id="Link">Add Trainer</Link></li>}
                   <li><Link id="Link" onClick={handleLogoutClick}>Logout</Link></li>
                 </>
@@ -76,7 +76,6 @@ const Homepage = () => {
                 <>
                   <li><Link to='/login' id="Link" className='login_btn'>Login</Link></li>
                   <li><Link to='/register' id="Link" className='signup_btn'>Sign Up</Link></li>
-                  <li><Link to='/gymlocator' id="Link" className='gymloc'>Find gym near me</Link></li>
                 </>
               )}
             </ul>
@@ -139,7 +138,7 @@ const Homepage = () => {
                 <div className="innerboxx">
                   <div className="logobox">
                   </div>
-                  <h3>Nutrition and Diet</h3>
+                  <h3>Nutrition and diet</h3>
                   <p>Offers basic dietary advice to complement fitness routines. </p>
                 </div>
               </div>

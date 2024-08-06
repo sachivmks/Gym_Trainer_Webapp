@@ -7,7 +7,6 @@ import Signuppage from './components/Signuppage';
 import Dietfoods from './components/others/Dietfoods';
 import Workouts from './components/others/Workouts';
 import Workoutplans from './components/others/Workoutplans';
-import Gymlocator from './components/others/Gymlocator';
 import VirtualTrainer from './components/others/VirtualTrainer';
 import Goalsetting from './components/others/Goalsetting';
 import Wpcardio from './components/Workoutplanss/Wpcardio';
@@ -22,7 +21,6 @@ function App() {
         <Route path='/home' element={<Homepage/>}></Route>
         <Route path='/login' element={<Loginpage/>}></Route>
         <Route path='/register' element={<Signuppage/>}></Route>
-        <Route path='/gymlocator' element={<Gymlocator/>}></Route>
         <Route path='/workouts' element={<Workouts/>}></Route>
             <Route path='/workout-plans' element={<Workoutplans/>}></Route>
                 <Route path='/wp/cardio' element={<Wpcardio/>}></Route>
